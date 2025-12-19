@@ -20,6 +20,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-59" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="6_ion_feTkptWTo6ZdO4-58" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-60" connectable="0" parent="6_ion_feTkptWTo6ZdO4-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;read_cq&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.023" y="-12" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fontColor=default;labelBackgroundColor=none;" value="数据文件" vertex="1">
           <mxGeometry height="60" width="90" x="310" y="10" as="geometry" />
         </mxCell>
@@ -37,6 +45,29 @@
         <mxCell id="6_ion_feTkptWTo6ZdO4-40" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-43" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-62" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="6_ion_feTkptWTo6ZdO4-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-63" connectable="0" parent="6_ion_feTkptWTo6ZdO4-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&lt;pre style=&quot;color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0286" y="2" as="geometry">
+            <mxPoint x="98" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-64" connectable="0" parent="6_ion_feTkptWTo6ZdO4-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;pre style=&quot;background-color: rgb(236, 236, 236); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0063" y="-2" as="geometry">
+            <mxPoint x="142" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-65" connectable="0" parent="6_ion_feTkptWTo6ZdO4-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;pre style=&quot;background-color: rgb(236, 236, 236); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt;&quot;&gt;&lt;br&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0254" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-68" connectable="0" parent="6_ion_feTkptWTo6ZdO4-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="collect_count" vertex="1">
+          <mxGeometry relative="1" x="-0.0032" y="2" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" value="Mongodb:&amp;nbsp;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;37.domain.chongqing_file_log&lt;/span&gt;" vertex="1">
@@ -75,7 +106,7 @@
         <mxCell id="6_ion_feTkptWTo6ZdO4-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(231%2C%2079%2C%2076)%3B%20font-family%3A%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%3B%20font-size%3A%2013px%3B%20text-align%3A%20start%3B%20background-color%3A%20rgb(255%2C%20255%2C%20255)%3B%26quot%3B%26gt%3BMongodb%3A%2037.dom.dom_cq%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22200%22%20x%3D%22100%22%20y%3D%22290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;52.res_history.res&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="100" y="584" as="geometry" />
         </mxCell>
-        <mxCell id="6_ion_feTkptWTo6ZdO4-21" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-20" value="">
+        <mxCell id="6_ion_feTkptWTo6ZdO4-21" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-22" connectable="0" parent="6_ion_feTkptWTo6ZdO4-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start; text-wrap-mode: wrap;&quot;&gt;push.sync&lt;/span&gt;" vertex="1">
@@ -104,11 +135,19 @@
         <mxCell id="6_ion_feTkptWTo6ZdO4-17" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;52.domain_push.push&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="220" x="100" y="724" as="geometry" />
         </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-71" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="6_ion_feTkptWTo6ZdO4-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-72" connectable="0" parent="6_ion_feTkptWTo6ZdO4-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="intercept_count_zhy" vertex="1">
+          <mxGeometry relative="1" x="0.3758" y="14" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;38.push_history.push_日期&amp;nbsp;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="240" x="-140" y="810" as="geometry" />
+          <mxGeometry height="60" width="240" x="720" y="760" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-23" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;52.res_history.res&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="220" x="360" y="844" as="geometry" />
+          <mxGeometry height="60" width="220" x="-190" y="854" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-30" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-29" value="">
           <mxGeometry relative="1" as="geometry">
@@ -140,18 +179,26 @@
           <mxGeometry height="60" width="200" x="110" y="460" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-36" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;" value="&lt;span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(231%2C%2079%2C%2076)%3B%20font-family%3A%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%3B%20font-size%3A%2013px%3B%20text-align%3A%20start%3B%20background-color%3A%20rgb(255%2C%20255%2C%20255)%3B%26quot%3B%26gt%3BMongodb%3A%2037.dom.dom_cq%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22200%22%20x%3D%22100%22%20y%3D%22290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;37.res_history.日期&lt;/span&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="200" x="510" y="689" as="geometry" />
+          <mxGeometry height="60" width="200" x="480" y="680" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-42" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_ion_feTkptWTo6ZdO4-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(231%2C%2079%2C%2076)%3B%20font-family%3A%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%3B%20font-size%3A%2013px%3B%20text-align%3A%20start%3B%20background-color%3A%20rgb(255%2C%20255%2C%20255)%3B%26quot%3B%26gt%3BMongodb%3A%2037.dom.dom_cq%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22200%22%20x%3D%22100%22%20y%3D%22290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;38.domain.domain_日期&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="200" x="390" y="370" as="geometry" />
+        <mxCell id="6_ion_feTkptWTo6ZdO4-66" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="6_ion_feTkptWTo6ZdO4-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6_ion_feTkptWTo6ZdO4-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;" value="report" vertex="1">
-          <mxGeometry height="80" width="120" x="680" y="380" as="geometry" />
+        <mxCell id="6_ion_feTkptWTo6ZdO4-67" connectable="0" parent="6_ion_feTkptWTo6ZdO4-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="warehousing_count" vertex="1">
+          <mxGeometry relative="1" x="0.0043" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#fad7ac;strokeColor=#b46504;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(231%2C%2079%2C%2076)%3B%20font-family%3A%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%3B%20font-size%3A%2013px%3B%20text-align%3A%20start%3B%20background-color%3A%20rgb(255%2C%20255%2C%20255)%3B%26quot%3B%26gt%3BMongodb%3A%2037.dom.dom_cq%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22200%22%20x%3D%22100%22%20y%3D%22290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;38.domain.domain_日期&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="230" x="420" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="report" vertex="1">
+          <mxGeometry height="80" width="120" x="770" y="500" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-44" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.605;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;fontColor=default;labelBackgroundColor=none;" target="6_ion_feTkptWTo6ZdO4-43">
           <mxGeometry relative="1" as="geometry" />
@@ -164,6 +211,32 @@
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=default;labelBackgroundColor=none;" value="Redis: 55." vertex="1">
           <mxGeometry height="60" width="120" x="-90" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-70" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6_ion_feTkptWTo6ZdO4-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-57" parent="1" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="intercept_daily_stats.py" vertex="1">
+          <mxGeometry height="80" width="120" x="1090" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-61" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.58;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" target="6_ion_feTkptWTo6ZdO4-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-73" connectable="0" parent="6_ion_feTkptWTo6ZdO4-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="intercept_count_total" vertex="1">
+          <mxGeometry relative="1" x="-0.1496" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-58" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Mongodb: 52.domain.intercept_日期&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;background-color: light-dark(rgb(43, 43, 43), rgb(200, 200, 200));&quot;&gt;&lt;span style=&quot;font-size: 10.5pt;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="250" x="1000" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-69" parent="1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;gradientColor=#97d077;rounded=1;" value="Mongodb37.domain.&lt;div&gt;chongqing_intercept_stats&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="1290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;rounded=0;gradientColor=#b3b3b3;" value="target_ips = [&quot;0.0.0.0&quot;, &quot;182.43.124.6&quot;, &quot;106.74.25.198&quot;, &quot;218.201.25.129&quot;, &quot;2409:8060:8ea:100::81&quot;]" vertex="1">
+          <mxGeometry height="30" width="420" x="1330" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="拦截IP: 表明被拦截了" vertex="1">
+          <mxGeometry height="30" width="120" x="1210" y="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
