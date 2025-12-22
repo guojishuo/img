@@ -103,6 +103,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-115" edge="1" parent="1" source="6_ion_feTkptWTo6ZdO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" target="6_ion_feTkptWTo6ZdO4-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;fontColor=default;" value="&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;Mongodb:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Brounded%3D1%3B%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgb(231%2C%2079%2C%2076)%3B%20font-family%3A%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%3B%20font-size%3A%2013px%3B%20text-align%3A%20start%3B%20background-color%3A%20rgb(255%2C%20255%2C%20255)%3B%26quot%3B%26gt%3BMongodb%3A%2037.dom.dom_cq%26lt%3B%2Fspan%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22200%22%20x%3D%22100%22%20y%3D%22290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 13px; text-align: start;&quot;&gt;52.res_history.res&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="110" y="604" as="geometry" />
         </mxCell>
@@ -316,6 +319,9 @@
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;" value="&lt;b&gt;推送数据明细:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="170" x="140" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="6_ion_feTkptWTo6ZdO4-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;" value="&lt;b&gt;近5天识别数据明细:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="350" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
