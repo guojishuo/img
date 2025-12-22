@@ -297,8 +297,8 @@
         <mxCell id="6_ion_feTkptWTo6ZdO4-97" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;" value="&lt;b&gt;拦截数据明细:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="240" x="1380" y="135" as="geometry" />
         </mxCell>
-        <mxCell id="6_ion_feTkptWTo6ZdO4-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;" value="&lt;b&gt;识别数据明细:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="250" x="760" y="672" as="geometry" />
+        <mxCell id="6_ion_feTkptWTo6ZdO4-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;" value="&lt;b&gt;历史识别数据明细:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="28" width="110" x="760" y="680" as="geometry" />
         </mxCell>
         <mxCell id="6_ion_feTkptWTo6ZdO4-101" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="统计泛解析数据" vertex="1">
           <mxGeometry height="80" width="120" x="1540" y="900" as="geometry" />
