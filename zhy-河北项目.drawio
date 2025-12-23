@@ -1,9 +1,41 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="xFgJmbMWtGQBZA4NhX7_">
-    <mxGraphModel>
+    <mxGraphModel dx="1042" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-6" edge="1" parent="1" source="YSHc7IZdIkU7TebmmKzU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="YSHc7IZdIkU7TebmmKzU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-7" connectable="0" parent="YSHc7IZdIkU7TebmmKzU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="数据写入中间库" vertex="1">
+          <mxGeometry relative="1" x="0.115" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-8" edge="1" parent="1" source="YSHc7IZdIkU7TebmmKzU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="YSHc7IZdIkU7TebmmKzU-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-10" edge="1" parent="1" source="YSHc7IZdIkU7TebmmKzU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="YSHc7IZdIkU7TebmmKzU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;fontFamily=Helvetica;fontColor=default;fontSize=12;" value="whitefilter.read.py" vertex="1">
+          <mxGeometry height="80" width="120" x="430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;fontSize=12;" value="&lt;b&gt;dom数据统计:&lt;/b&gt;&lt;div&gt;1. 创建索引&lt;/div&gt;&lt;div&gt;2.&amp;nbsp;/data/sftp/zhy/whitefilter/input 读取文件&lt;/div&gt;&lt;div&gt;3. 先将数据写入中间库&lt;/div&gt;&lt;div&gt;4. 再将统计结果写入122.6库&lt;/div&gt;&lt;div&gt;5.数据备份到/data/dom_back_up/whitefilter/日期&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="260" x="590" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;fontSize=12;fontFamily=Helvetica;" value="&lt;div&gt;192.171.122.6.domain.whitefilter_read_log&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="260" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=default;labelBackgroundColor=none;fontSize=12;fontFamily=Helvetica;" value="&lt;div&gt;中间库.hebeiliantong.whitefilter&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-9" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&amp;nbsp;日志路径:&lt;div&gt;/etc/kw_log&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="510" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YSHc7IZdIkU7TebmmKzU-11" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="部分程序进行了打包:&lt;div&gt;1. 编译成.so&lt;/div&gt;&lt;div&gt;2. 替换原py模块&lt;/div&gt;&lt;div&gt;3. pyinstaller打包&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="670" y="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
