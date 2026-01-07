@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="Niq34_6UvoCOiwG2y6Xb">
-    <mxGraphModel dx="1226" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,44 +11,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="icp获取一个企业" vertex="1">
-          <mxGeometry height="60" width="120" x="206" y="70" as="geometry" />
+          <mxGeometry height="60" width="120" x="-630" y="660" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-2" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="企业类型: 企业&lt;div&gt;是否alive: 1&lt;/div&gt;&lt;div&gt;white_check: 不存在&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="150" x="430" y="50" as="geometry" />
+          <mxGeometry height="80" width="150" x="-810" y="650" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-6" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rVIwoCRcW_M3vW5w3pWr-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="根据企业名称获取icp中所有该企业数据&lt;div&gt;(domain进行合并)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="206" y="180" as="geometry" />
+          <mxGeometry height="60" width="120" x="-630" y="770" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="enterprise获取企业信息" vertex="1">
-          <mxGeometry height="60" width="120" x="206" y="300" as="geometry" />
+          <mxGeometry height="60" width="120" x="-630" y="890" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-11" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-12" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取待爬企业" vertex="1">
           <mxGeometry relative="1" x="-0.3363" as="geometry">
-            <mxPoint x="-4" y="50" as="offset" />
+            <mxPoint x="24" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVIwoCRcW_M3vW5w3pWr-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="icp_no_domain" vertex="1">
-          <mxGeometry height="60" width="130" x="660" y="230" as="geometry" />
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="res.icp_no_domain" vertex="1">
+          <mxGeometry height="60" width="130" x="530" y="240" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-10" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-13" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="删除企业/标记无域名" vertex="1">
           <mxGeometry relative="1" x="0.3844" y="3" as="geometry">
+            <mxPoint x="110" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-102" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#45FF41;" target="rVIwoCRcW_M3vW5w3pWr-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-103" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="新增的情况" vertex="1">
+          <mxGeometry relative="1" x="-0.0294" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVIwoCRcW_M3vW5w3pWr-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="get_one_company_to_spider.py" vertex="1">
-          <mxGeometry height="80" width="200" x="430" y="420" as="geometry" />
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-104" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=#45FF41;" target="rVIwoCRcW_M3vW5w3pWr-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="get_one_company_to_spider.py" vertex="1">
+          <mxGeometry height="80" width="200" x="950" y="400" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="company_service.py" vertex="1">
-          <mxGeometry height="80" width="160" x="840" y="580" as="geometry" />
+          <mxGeometry height="80" width="160" x="1090" y="200" as="geometry" />
         </mxCell>
         <mxCell id="rVIwoCRcW_M3vW5w3pWr-15" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="rVIwoCRcW_M3vW5w3pWr-18" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -211,7 +222,134 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVIwoCRcW_M3vW5w3pWr-64" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-14">
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-64" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-73" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-112" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-65" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="excel_query_data_to_db.py" vertex="1">
+          <mxGeometry height="80" width="200" x="-93" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-68" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-69" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-114" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="加入到待爬表" vertex="1">
+          <mxGeometry relative="1" x="-0.0794" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="excel_export_data_to_db.py" vertex="1">
+          <mxGeometry height="80" width="200" x="150" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;fontSize=12;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;企业信息查询导出数据&lt;/b&gt;, 目前是只导出5000w资产以上的企业&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 1. 根据excel名初步过滤&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2. 根据企业名查询icp&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3. 如果查到则过滤&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 4. 如果未查到, 写入icp_no_domain, 以备后续爬取数据&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="234" x="-110" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;fontSize=12;" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;b&gt;通过icp导出white_check=2的数据&lt;/b&gt;, 放到excel中, 去aqc进行查询并导出, 得到输入的excel&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 1. 正常情况, icp中都有信息, 因为数据本质来源是icp, 但是aqc提供的数据跟查询的是有出入的&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2. 根据excel名初步过滤&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 3. 根据企业名称获取所有domain信息, 构造enterprise_info结构数据, 并写入&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 4. 将资产大于1000的入库capital_gte_5K (其他程序也会处理) 算冗余&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 5. 将icp中该企业的white_check属性删掉, 后续会有其他程序进行检索该字段进行加白处理&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="264" x="-400" y="352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-74" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-105" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-72" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="res.icp" vertex="1">
+          <mxGeometry height="60" width="130" x="540" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-75" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="enterprise_info.enterprise_info" vertex="1">
+          <mxGeometry height="60" width="180" x="510" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-77" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="enterprise_info.capital_gte_5K" vertex="1">
+          <mxGeometry height="60" width="170" x="510" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-89" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-90" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-89" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="获取资产&amp;gt;5000数据" vertex="1">
+          <mxGeometry relative="1" x="-0.0505" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-78" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="enterprise_info.enterprise_domain_detail" vertex="1">
+          <mxGeometry height="60" width="230" x="485" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-79" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="domain_push.whitelist" vertex="1">
+          <mxGeometry height="60" width="150" x="550" y="1153" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-84" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-80" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="query_1w_company_to_spider.py" vertex="1">
+          <mxGeometry height="80" width="200" x="150" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-82" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-83" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-81" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="爱企查" vertex="1">
+          <mxGeometry height="80" width="80" x="210" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-108" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-109" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-110" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-85" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="icp_one_by_one_to_white_daily.py" vertex="1">
+          <mxGeometry height="80" width="200" x="-60" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-88" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-91" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="rVIwoCRcW_M3vW5w3pWr-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-95" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="满足条件的加白" vertex="1">
+          <mxGeometry relative="1" x="0.0733" y="32" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-96" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-97" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="标记" vertex="1">
+          <mxGeometry relative="1" x="-0.1447" y="24" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-86" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" value="extend_white_list.py" vertex="1">
+          <mxGeometry height="80" width="200" x="40" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;fontSize=12;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;白名单扩展&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0. 已先查出所有注册资本大于5000w的企业, 取出主域名和子域名&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1. 判断case表里是否有涉案&amp;nbsp; &amp;nbsp;(case.caseurl)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1) &quot;$or&quot;:[{&quot;source&quot;: {&quot;$in&quot;:[&quot;案件库&quot;,&quot;无锡&quot;]}},{&quot;name&quot;:&quot;api&quot;}]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2) 风险域名用hostname匹配&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3) 非风险域名的用main_domain匹配&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2. 主域名, 子域名都添加白名单 !格式&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3. whitelist: status=1, from_other_platform=0, source=10,&amp;nbsp; 资产&amp;gt;1亿的, rank=0 (永久白名单)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="175" width="310" x="-410" y="1035.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-93" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-94" connectable="0" parent="rVIwoCRcW_M3vW5w3pWr-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="判断是否涉案" vertex="1">
+          <mxGeometry relative="1" x="-0.0012" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-92" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" value="case.caseurl" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;verticalAlign=top;align=left;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=#000000;fontSize=12;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;每日检查icp数据, 有新增则一系列判断, 加到白名单里&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 1. 轮训每个icp, 加个字段, white_check, 如果已处理, 则标记1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.1 获取企业名称, 再根据企业名称获取同名的所有信息&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.2 拿到main_domain, 跟enterprise_info里该企业的main_domain比较下, 是否set集一致,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.2.1 不一致需更新下&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.2.2 判断注册资本, 大于5000w的话, 在不在capital_gte_5K里&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.2.3 再写入enterprise_domain_detail&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 2. extend_white_list.py这个程序会去获取新增的, 进行白名单扩充&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="310" x="-433" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="rVIwoCRcW_M3vW5w3pWr-107" edge="1" parent="1" source="rVIwoCRcW_M3vW5w3pWr-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.01;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" target="rVIwoCRcW_M3vW5w3pWr-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
